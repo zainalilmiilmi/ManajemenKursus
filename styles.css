@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    background: #e9ecef;
+    margin: 5px 0;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+button.edit, button.delete, button.toggle-material-form {
+    background: #007bff;
+    border: none;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    border-radius: 3px;
+}
+
+button.delete {
+    background: #dc3545;
+}
+
+button.edit:hover {
+    background: #0056b3;
+}
+
+button.delete:hover {
+    background: #c82333;
+}
+
+button.toggle-material-form {
+    background: #17a2b8;
+}
+
+button.toggle-material-form:hover {
+    background: #138496;
+}
+
+.material-form {
+    margin-top: 15px;
+}
+
+.material-form input[type="text"], 
+.material-form textarea {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+}

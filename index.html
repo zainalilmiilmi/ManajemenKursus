@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manajemen Kursus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Manajemen Kursus</h1>
+
+        <h2>Tambah Kursus Baru</h2>
+        <form id="course-form">
+            <label for="course-title">Judul:</label>
+            <input type="text" id="course-title" required>
+            <label for="course-description">Deskripsi:</label>
+            <textarea id="course-description" required></textarea>
+            <label for="course-duration">Durasi:</label>
+            <input type="text" id="course-duration" required>
+            <button type="submit">Tambah Kursus</button>
+        </form>
+
+        <h2>Daftar Kursus</h2>
+        <ul id="course-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
